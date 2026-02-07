@@ -1,10 +1,11 @@
 import React from 'react';
 import Hero from '../components/Hero';
-
+import Stats from "../components/Stats";
 export default function Home() {
   return (
     <div>
       <Hero />
+      <Stats />
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">
